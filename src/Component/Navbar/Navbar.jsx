@@ -22,9 +22,11 @@ const Navbar = () => {
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
                                     <Link to='/allCart'><li><a>All Cafe</a></li></Link>
                                     <Link to='/shoppingPage'><li><a>Shopping Page</a></li></Link>
+                                    <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
+                                    {/* <Link to='/shopCart'><li><a>Shop Cart</a></li></Link> */}
                                 </ul>
                             </li>
-                            <li><a>About Us</a></li>
+                            <Link to='/aboutUs'><li><a>About Us</a></li></Link>
                             <li><a>Coupon</a></li>
                             <li><a>Support</a></li>
                         </ul>
@@ -50,10 +52,11 @@ const Navbar = () => {
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
                                     <Link to='/allCart'><li><a>All Cafe</a></li></Link>
                                     <Link to='/shoppingPage'><li><a>Shopping Page</a></li></Link>
+                                    <Link to='/termUse'><li><a>Terms of Use</a></li></Link>
                                 </ul>
                             </details>
                         </li>
-                        <li className='text-xl'><a>About Us</a></li>
+                        <Link to='/aboutUs'><li className='text-xl'><a>About Us</a></li></Link>
                         <li className='text-xl'><a>Coupon</a></li>
                         <li className='text-xl'><a>Support</a></li>
                     </ul>

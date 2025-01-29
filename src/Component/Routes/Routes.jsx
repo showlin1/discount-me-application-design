@@ -10,6 +10,7 @@ import VisitCafe from "../../Pages/VisitCafe/VisitCafe";
 import ShoppingPage from "../../Pages/ShoppingPage/ShoppingPage";
 import ShoppingDetails from "../../Pages/ShoppingDetails/ShoppingDetails";
 import ShopCart from "../../Pages/ShopCart/ShopCart";
+import AboutUs from "../../Pages/AboutUs/AboutUs";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
             {
                 path: '/newPass',
                 element: <NewPass></NewPass>
+            },
+            {
+                path: '/aboutUs',
+                element: <AboutUs></AboutUs>
             },
         ]
     },
