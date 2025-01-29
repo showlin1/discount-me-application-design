@@ -21,6 +21,7 @@ const Navbar = () => {
                                     <Link to='/'><li><a>Home</a></li></Link>
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
                                     <Link to='/allCart'><li><a>All Cafe</a></li></Link>
+                                    <Link to='/shoppingPage'><li><a>Shopping Page</a></li></Link>
                                 </ul>
                             </li>
                             <li><a>About Us</a></li>
@@ -48,6 +49,7 @@ const Navbar = () => {
                                     <Link to='/'><li><a>Home</a></li></Link>
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
                                     <Link to='/allCart'><li><a>All Cafe</a></li></Link>
+                                    <Link to='/shoppingPage'><li><a>Shopping Page</a></li></Link>
                                 </ul>
                             </details>
                         </li>

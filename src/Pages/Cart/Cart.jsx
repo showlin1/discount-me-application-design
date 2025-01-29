@@ -21,7 +21,7 @@ const Cart = ({ cart }) => {
                     <p>{location}</p>
                 </div>
                 {
-                    details.length > 80 ? <p>{details.slice(0, 80)}<Link
+                    details.length > 84 ? <p className='text-start'>{details.slice(0, 84)}<Link
                         to={`/cart/${id}`}
                         className="text-blue-600 font-bold">Read More...</Link></p>
                         : <p>{details}</p>

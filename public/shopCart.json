@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "shoppingName": "Smartphone X Pro",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "A high-end smartphone with an advanced camera system and OLED display.",
+        "review": 4,
+        "category": "Electronics",
+        "price": 999.99
+    },
+    {
+        "id": 2,
+        "shoppingName": "Wireless Earbuds",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Noise-canceling wireless earbuds with long battery life and deep bass.",
+        "review": 4,
+        "category": "Electronics",
+        "price": 129.99
+    },
+    {
+        "id": 3,
+        "shoppingName": "Gaming Laptop",
+        "image": "https://i.ibb.co.com/jZDPQSCS/shop2.jpg",
+        "description": "Powerful gaming laptop with a high-refresh-rate display and RTX graphics card.",
+        "review": 4,
+        "category": "Computers",
+        "price": 1599.99
+    },
+    {
+        "id": 4,
+        "shoppingName": "Leather Backpack",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Stylish and durable leather backpack with multiple compartments.",
+        "review": 4,
+        "category": "Fashion",
+        "price": 89.99
+    },
+    {
+        "id": 5,
+        "shoppingName": "Running Shoes",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Lightweight and comfortable running shoes with excellent grip and support.",
+        "review": 4,
+        "category": "Footwear",
+        "price": 79.99
+    },
+    {
+        "id": 6,
+        "shoppingName": "Designer Sunglasses",
+        "image": "https://i.ibb.co.com/jZDPQSCS/shop2.jpg",
+        "description": "UV-protected stylish sunglasses with a premium frame.",
+        "review": 4,
+        "category": "Fashion",
+        "price": 149.99
+    },
+    {
+        "id": 7,
+        "shoppingName": "Smartwatch 5",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Advanced smartwatch with fitness tracking, GPS, and heart rate monitoring.",
+        "review": 4,
+        "category": "Wearable Tech",
+        "price": 249.99
+    },
+    {
+        "id": 8,
+        "shoppingName": "Electric Toothbrush",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+        "review": 4,
+        "category": "Health & Beauty",
+        "price": 59.99
+    },
+    {
+        "id": 9,
+        "shoppingName": "Cookware Set",
+        "image": "https://i.ibb.co.com/jZDPQSCS/shop2.jpg",
+        "description": "Premium non-stick cookware set with pots and pans for home cooking.",
+        "review": 4,
+        "category": "Home & Kitchen",
+        "price": 199.99
+    },
+    {
+        "id": 10,
+        "shoppingName": "Portable Blender",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Compact and powerful blender for making smoothies on the go.",
+        "review": 4,
+        "category": "Home Appliances",
+        "price": 49.99
+    },
+    {
+        "id": 11,
+        "shoppingName": "Luxury Watch",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Elegant wristwatch with a sapphire crystal face and stainless steel body.",
+        "review": 4,
+        "category": "Fashion",
+        "price": 799.99
+    },
+    {
+        "id": 12,
+        "shoppingName": "Standing Desk",
+        "image": "https://i.ibb.co.com/jZDPQSCS/shop2.jpg",
+        "description": "Adjustable height standing desk for a healthier workspace setup.",
+        "review": 4,
+        "category": "Furniture",
+        "price": 299.99
+    },
+    {
+        "id": 13,
+        "shoppingName": "Wireless Keyboard & Mouse",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Ergonomic wireless keyboard and mouse combo with silent keys.",
+        "review": 4,
+        "category": "Computers",
+        "price": 79.99
+    },
+    {
+        "id": 14,
+        "shoppingName": "Essential Oil Diffuser",
+        "image": "https://i.ibb.co.com/LzQ02jY7/shop1.jpg",
+        "description": "Aromatherapy diffuser with LED lights and auto shut-off feature.",
+        "review": 4,
+        "category": "Home & Living",
+        "price": 39.99
+    },
+    {
+        "id": 15,
+        "shoppingName": "Camping Tent",
+        "image": "https://i.ibb.co.com/jZDPQSCS/shop2.jpg",
+        "description": "Waterproof and durable tent for outdoor camping and hiking adventures.",
+        "review": 4,
+        "category": "Outdoor & Sports",
+        "price": 129.99
+    }
+]

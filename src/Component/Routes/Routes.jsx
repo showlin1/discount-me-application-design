@@ -6,6 +6,8 @@ import ForgetPass from "../../Pages/ForgetPass/ForgetPass";
 import NewPass from "../../Pages/NewPass/NewPass";
 import Home from "../../Pages/Home/Home";
 import AllCart from "../../Pages/All Cart/AllCart";
+import VisitCafe from "../../Pages/VisitCafe/VisitCafe";
+import ShoppingPage from "../../Pages/ShoppingPage/ShoppingPage";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -20,6 +22,16 @@ const router = createBrowserRouter([
                 path: '/allCart',
                 element: <AllCart></AllCart>,
                 loader: () => fetch('/carts.json'),
+            },
+            {
+                path: '/cart/:id',
+                element: <VisitCafe></VisitCafe>,
+                loader: () => fetch('/carts.json'),
+            },
+            {
+                path: '/shoppingPage',
+                element: <ShoppingPage></ShoppingPage>,
+                loader: () => fetch('/shopCart.json'),
             },
             {
                 path: '/signIn',
