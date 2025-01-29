@@ -8,6 +8,8 @@ import Home from "../../Pages/Home/Home";
 import AllCart from "../../Pages/All Cart/AllCart";
 import VisitCafe from "../../Pages/VisitCafe/VisitCafe";
 import ShoppingPage from "../../Pages/ShoppingPage/ShoppingPage";
+import ShoppingDetails from "../../Pages/ShoppingDetails/ShoppingDetails";
+import ShopCart from "../../Pages/ShopCart/ShopCart";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -34,8 +36,17 @@ const router = createBrowserRouter([
                 loader: () => fetch('/shopCart.json'),
             },
             {
+                path: '/shoppingCart/:id',
+                element: <ShoppingDetails></ShoppingDetails>,
+                loader: () => fetch('/shopCart.json'),
+            },
+            {
                 path: '/signIn',
                 element: <SignIn></SignIn>
+            },
+            {
+                path: '/shopCart',
+                element: <ShopCart></ShopCart>
             },
             {
                 path: '/register',

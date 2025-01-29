@@ -10,7 +10,9 @@ const ShopingCart = ({ cart }) => {
                 <img className='relative h-[180px] w-full'
                     src={image}
                     alt="Image" />
-                <FiShoppingCart className="absolute top-3 right-4 text-3xl text-white p-2 rounded-full bg-orange-500"></FiShoppingCart>
+                <Link to={`/shoppingCart/${id}`}>
+                    <FiShoppingCart className="absolute top-3 right-4 text-3xl text-white p-2 rounded-full bg-orange-500"></FiShoppingCart>
+                </Link>
             </figure>
             <div className="flex justify-between gap-2 mt-4">
                 <div className='text-start'>
