@@ -11,6 +11,8 @@ import ShoppingPage from "../../Pages/ShoppingPage/ShoppingPage";
 import ShoppingDetails from "../../Pages/ShoppingDetails/ShoppingDetails";
 import ShopCart from "../../Pages/ShopCart/ShopCart";
 import AboutUs from "../../Pages/AboutUs/AboutUs";
+import TermsUse from "../../Pages/TermsUse/TermsUse";
+import PrivacyPolicy from "../../Pages/PrivacyPolicy/PrivacyPolicy";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -64,6 +66,14 @@ const router = createBrowserRouter([
             {
                 path: '/aboutUs',
                 element: <AboutUs></AboutUs>
+            },
+            {
+                path: '/termsUse',
+                element: <TermsUse></TermsUse>
+            },
+            {
+                path: '/privacyPolicy',
+                element: <PrivacyPolicy></PrivacyPolicy>
             },
         ]
     },
