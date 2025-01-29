@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "restaurantName": "The Gourmet Spot",
+        "image": "https://i.ibb.co.com/q30CM5TN/Cafe2.jpg",
+        "location": "New York, USA",
+        "rating": 4.8,
+        "details": "A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 2,
+        "restaurantName": "Spice Heaven",
+        "image": "https://i.ibb.co.com/s9jSZPcT/Cafe1.jpg",
+        "location": "Mumbai, India",
+        "rating": 4.6,
+        "details": "A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 3,
+        "restaurantName": "Sushi Delight",
+        "image": "https://i.ibb.co.com/KppSGcKY/Cafe3.jpg",
+        "location": "Tokyo, Japan",
+        "rating": 4.9,
+        "details": "A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 4,
+        "restaurantName": "Pasta Paradise",
+        "image": "https://i.ibb.co.com/q30CM5TN/Cafe2.jpg",
+        "location": "Rome, Italy",
+        "rating": 4.7,
+        "details": "A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 5,
+        "restaurantName": "The Burger Joint",
+        "image": "https://i.ibb.co.com/s9jSZPcT/Cafe1.jpg",
+        "location": "Los Angeles, USA",
+        "rating": 4.5,
+        "details": "Gourmet burgers with fresh ingredients, juicy patties, and a variety of toppings. A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 6,
+        "restaurantName": "Seafood Shack",
+        "image": "https://i.ibb.co.com/KppSGcKY/Cafe3.jpg",
+        "location": "Sydney, Australia",
+        "rating": 4.6,
+        "details": "Fresh seafood platters, oysters, and grilled fish by the beach.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 7,
+        "restaurantName": "Taco Fiesta",
+        "image": "https://i.ibb.co.com/q30CM5TN/Cafe2.jpg",
+        "location": "Mexico City, Mexico",
+        "rating": 4.7,
+        "details": "Authentic Mexican tacos, burritos, and quesadillas with vibrant flavors.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 8,
+        "restaurantName": "BBQ Haven",
+        "image": "https://i.ibb.co.com/KppSGcKY/Cafe3.jpg",
+        "location": "Texas, USA",
+        "rating": 4.8,
+        "details": "Smoky barbecue meats, ribs, and brisket slow-cooked to perfection.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 9,
+        "restaurantName": "Vegan Bliss",
+        "image": "https://i.ibb.co.com/s9jSZPcT/Cafe1.jpg",
+        "location": "Berlin, Germany",
+        "rating": 4.5,
+        "details": "A vegan-friendly restaurant offering delicious plant-based dishes.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 10,
+        "restaurantName": "Dim Sum Palace",
+        "image": "https://i.ibb.co.com/KppSGcKY/Cafe3.jpg",
+        "location": "Hong Kong, China",
+        "rating": 4.9,
+        "details": "Traditional dim sum, dumplings, and Cantonese specialties served fresh.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs."
+    },
+    {
+        "id": 11,
+        "restaurantName": "Mediterranean Flavors",
+        "image": "https://i.ibb.co.com/q30CM5TN/Cafe2.jpg",
+        "location": "Athens, Greece",
+        "rating": 4.6,
+        "details": "Fresh Mediterranean cuisine with grilled meats, seafood, and Greek salads.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    },
+    {
+        "id": 12,
+        "restaurantName": "French Elegance",
+        "image": "https://i.ibb.co.com/s9jSZPcT/Cafe1.jpg",
+        "location": "Paris, France",
+        "rating": 4.8,
+        "details": "Exquisite French dishes, fine wines, and delicate pastries in a romantic setting.A fine dining experience with international cuisine and a cozy ambiance.Authentic Indian dishes with a blend of exotic spices and rich flavors.Fresh sushi, sashimi, and other Japanese delicacies prepared by top chefs.Delicious handmade pasta and authentic Italian pizzas with a great wine selection."
+    }
+]

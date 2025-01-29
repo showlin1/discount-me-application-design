@@ -20,7 +20,7 @@ const Navbar = () => {
                                 <ul className="">
                                     <Link to='/'><li><a>Home</a></li></Link>
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
-                                    <li><a>Submenu 2</a></li>
+                                    <Link to='/allCart'><li><a>All Cafe</a></li></Link>
                                 </ul>
                             </li>
                             <li><a>About Us</a></li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                                 <ul className="p-2">
                                     <Link to='/'><li><a>Home</a></li></Link>
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
-                                    <li><a>Submenu 2</a></li>
+                                    <Link to='/allCart'><li><a>All Cafe</a></li></Link>
                                 </ul>
                             </details>
                         </li>
