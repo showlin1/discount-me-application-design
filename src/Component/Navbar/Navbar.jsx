@@ -25,6 +25,7 @@ const Navbar = () => {
                                     <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
                                     <Link to='/termsUse'><li><a>Terms of Use</a></li></Link>
                                     <Link to='/privacyPolicy'><li><a>Privacy Policy</a></li></Link>
+                                    <Link to='/shareReview'><li><a>Share Review</a></li></Link>
                                     <Link to='/dashboard/profile'><li><a>Dashboard</a></li></Link>
                                 </ul>
                             </li>
@@ -57,6 +58,7 @@ const Navbar = () => {
                                     <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
                                     <Link to='/termsUse'><li><a>Terms of Use</a></li></Link>
                                     <Link to='/privacyPolicy'><li><a>Privacy Policy</a></li></Link>
+                                    <Link to='/shareReview'><li><a>Share Review</a></li></Link>
                                     <Link to='/dashboard/profile'><li><a>Dashboard</a></li></Link>
                                 </ul>
                             </details>
@@ -69,7 +71,7 @@ const Navbar = () => {
                 <div className="navbar-end text-2xl gap-10">
                     <FaRegHeart></FaRegHeart>
                     <Link to='/shopCart' className='text-orange-500'><FiShoppingCart></FiShoppingCart></Link>
-                    <CiUser></CiUser>
+                    <Link to='/dashboard/profile'><CiUser></CiUser></Link>
                 </div>
             </div>
         </div>

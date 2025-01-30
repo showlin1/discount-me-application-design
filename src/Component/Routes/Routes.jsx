@@ -20,6 +20,7 @@ import Profile from "../../Pages/Profile/Profile";
 import OrderHistory from "../../Pages/OrderHistory/OrderHistory";
 import Setting from "../../Pages/Setting/Setting";
 import OrderDetails from "../../Pages/OrderDetails/OrderDetails";
+import ShareReview from "../../Pages/ShareReview/ShareReview";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -91,26 +92,30 @@ const router = createBrowserRouter([
                 element: <CouponCard></CouponCard>
             },
             {
+                path: '/shareReview',
+                element: <ShareReview></ShareReview>
+            },
+            {
                 path: '/dashboard',
                 element: <Dashboard></Dashboard>,
-                children:[
+                children: [
                     {
-                        path:'profile',
-                        element:<Profile></Profile>
+                        path: 'profile',
+                        element: <Profile></Profile>
                     },
                     {
-                        path:'orderHistory',
-                        element:<OrderHistory></OrderHistory>,
+                        path: 'orderHistory',
+                        element: <OrderHistory></OrderHistory>,
                     },
                     {
-                        path:'viewDetails',
-                        element:<OrderDetails></OrderDetails>,
+                        path: 'viewDetails',
+                        element: <OrderDetails></OrderDetails>,
                     },
                     {
-                        path:'setting',
-                        element:<Setting></Setting>,
+                        path: 'setting',
+                        element: <Setting></Setting>,
                     },
-                    
+
                 ]
             },
         ]
