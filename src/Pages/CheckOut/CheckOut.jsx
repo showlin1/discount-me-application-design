@@ -20,7 +20,7 @@ const CheckOut = () => {
                     <div className="text-xl text-white">
                         <a>{">"}</a>
                     </div>
-                    <div className="text-base text-orange-600">Shop Cart</div>
+                    <div className="text-base text-orange-600">CheckOut</div>
                 </div>
             </div>
             <div className='w-full mb-16 flex gap-5'>

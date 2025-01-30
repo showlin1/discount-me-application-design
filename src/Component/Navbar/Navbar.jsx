@@ -28,7 +28,7 @@ const Navbar = () => {
                                 </ul>
                             </li>
                             <Link to='/aboutUs'><li><a>About Us</a></li></Link>
-                            <li><a>Coupon</a></li>
+                            <Link to='/couponCard'><li className='text-xl'><a>Coupon</a></li></Link>
                             <li><a>Support</a></li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                             </details>
                         </li>
                         <Link to='/aboutUs' ><li className='text-xl'><a>About Us</a></li></Link>
-                        <li className='text-xl'><a>Coupon</a></li>
+                        <Link to='/couponCard'><li className='text-xl'><a>Coupon</a></li></Link>
                         <li className='text-xl'><a>Support</a></li>
                     </ul>
                 </div>
