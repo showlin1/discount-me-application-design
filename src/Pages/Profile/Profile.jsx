@@ -25,7 +25,7 @@ const Profile = () => {
             <div className='p-5 rounded-xl shadow-xl mt-10'>
                 <div className='flex justify-between mb-8'>
                     <h1 className='text-start text-4xl font-bold'>Recet Order History</h1>
-                    <Link to='/orderHistory'> <p className='text-orange-500 pt-4 font-bold'>View All</p></Link>
+                    <Link to='/dashboard/orderHistory'> <p className='text-orange-500 pt-4 font-bold'>View All</p></Link>
                 </div>
                 <div className="overflow-x-auto">
                     <table className="table">
