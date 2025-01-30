@@ -18,6 +18,7 @@ import CouponCard from "../../Pages/CouponCard/CouponCard";
 import Dashboard from "../../Pages/Dashboard/Dashboard";
 import Profile from "../../Pages/Profile/Profile";
 import OrderHistory from "../../Pages/OrderHistory/OrderHistory";
+import Setting from "../../Pages/Setting/Setting";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -98,8 +99,13 @@ const router = createBrowserRouter([
                     },
                     {
                         path:'orderHistory',
-                        element:<OrderHistory></OrderHistory>
+                        element:<OrderHistory></OrderHistory>,
                     },
+                    {
+                        path:'setting',
+                        element:<Setting></Setting>,
+                    },
+                    
                 ]
             },
         ]
