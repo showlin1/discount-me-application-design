@@ -17,6 +17,7 @@ import CheckOut from "../../Pages/CheckOut/CheckOut";
 import CouponCard from "../../Pages/CouponCard/CouponCard";
 import Dashboard from "../../Pages/Dashboard/Dashboard";
 import Profile from "../../Pages/Profile/Profile";
+import OrderHistory from "../../Pages/OrderHistory/OrderHistory";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -94,7 +95,11 @@ const router = createBrowserRouter([
                     {
                         path:'profile',
                         element:<Profile></Profile>
-                    }
+                    },
+                    {
+                        path:'orderHistory',
+                        element:<OrderHistory></OrderHistory>
+                    },
                 ]
             },
         ]
