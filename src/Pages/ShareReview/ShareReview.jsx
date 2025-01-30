@@ -92,7 +92,11 @@ const ShareReview = () => {
                 </div>
             </div>
             <p className='text-start text-xl mt-14'>Please share your opinion about the product</p>
-            <textarea className="mb-16 block w-full h-32 px-5 py-3 text-gray-900 text-xl mt-3 placeholder-gray-400 border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-base-400 focus:ring-base-300 focus:ring-opacity-40 dark:focus:border-base-300 focus:outline-none focus:ring bg-base-300" placeholder="Your review"></textarea>
+            <textarea className="mb-16 block w-full h-32 px-5 py-3 text-gray-900 text-xl mt-3 placeholder-gray-400 border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-base-400 focus:ring-base-300 focus:ring-opacity-40 dark:focus:border-base-300 focus:outline-none focus:ring bg-base-300"
+                placeholder="Your review"></textarea>
+            <div className=''>
+                <button className='btn text-white text-2xl mb-16 bg-black w-full'>Send Review</button>
+            </div>
         </div>
     );
 };
