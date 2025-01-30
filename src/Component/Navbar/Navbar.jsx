@@ -53,19 +53,20 @@ const Navbar = () => {
                                     <Link to='/signIn'><li><a>Sign In</a></li></Link>
                                     <Link to='/allCart'><li><a>All Cafe</a></li></Link>
                                     <Link to='/shoppingPage'><li><a>Shopping Page</a></li></Link>
+                                    <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
                                     <Link to='/termsUse'><li><a>Terms of Use</a></li></Link>
                                     <Link to='/privacyPolicy'><li><a>Privacy Policy</a></li></Link>
                                 </ul>
                             </details>
                         </li>
-                        <Link to='/aboutUs'><li className='text-xl'><a>About Us</a></li></Link>
+                        <Link to='/aboutUs' ><li className='text-xl'><a>About Us</a></li></Link>
                         <li className='text-xl'><a>Coupon</a></li>
                         <li className='text-xl'><a>Support</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end text-2xl gap-10">
                     <FaRegHeart></FaRegHeart>
-                    <FiShoppingCart></FiShoppingCart>
+                    <Link to='/shopCart' className='text-orange-500'><FiShoppingCart></FiShoppingCart></Link>
                     <CiUser></CiUser>
                 </div>
             </div>

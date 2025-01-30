@@ -13,6 +13,7 @@ import ShopCart from "../../Pages/ShopCart/ShopCart";
 import AboutUs from "../../Pages/AboutUs/AboutUs";
 import TermsUse from "../../Pages/TermsUse/TermsUse";
 import PrivacyPolicy from "../../Pages/PrivacyPolicy/PrivacyPolicy";
+import CheckOut from "../../Pages/CheckOut/CheckOut";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -49,7 +50,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/shopCart',
-                element: <ShopCart></ShopCart>
+                element: <ShopCart></ShopCart>,
             },
             {
                 path: '/register',
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
             {
                 path: '/privacyPolicy',
                 element: <PrivacyPolicy></PrivacyPolicy>
+            },
+            {
+                path: '/checkOut',
+                element: <CheckOut></CheckOut>
             },
         ]
     },
