@@ -15,6 +15,8 @@ import TermsUse from "../../Pages/TermsUse/TermsUse";
 import PrivacyPolicy from "../../Pages/PrivacyPolicy/PrivacyPolicy";
 import CheckOut from "../../Pages/CheckOut/CheckOut";
 import CouponCard from "../../Pages/CouponCard/CouponCard";
+import Dashboard from "../../Pages/Dashboard/Dashboard";
+import Profile from "../../Pages/Profile/Profile";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -84,6 +86,16 @@ const router = createBrowserRouter([
             {
                 path: '/couponCard',
                 element: <CouponCard></CouponCard>
+            },
+            {
+                path: '/dashboard',
+                element: <Dashboard></Dashboard>,
+                children:[
+                    {
+                        path:'profile',
+                        element:<Profile></Profile>
+                    }
+                ]
             },
         ]
     },

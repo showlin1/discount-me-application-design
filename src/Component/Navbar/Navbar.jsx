@@ -25,6 +25,7 @@ const Navbar = () => {
                                     <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
                                     <Link to='/termsUse'><li><a>Terms of Use</a></li></Link>
                                     <Link to='/privacyPolicy'><li><a>Privacy Policy</a></li></Link>
+                                    <Link to='/dashboard/profile'><li><a>Dashboard</a></li></Link>
                                 </ul>
                             </li>
                             <Link to='/aboutUs'><li><a>About Us</a></li></Link>
@@ -56,6 +57,7 @@ const Navbar = () => {
                                     <Link to='/shopCart'><li><a>Shop Cart</a></li></Link>
                                     <Link to='/termsUse'><li><a>Terms of Use</a></li></Link>
                                     <Link to='/privacyPolicy'><li><a>Privacy Policy</a></li></Link>
+                                    <Link to='/dashboard/profile'><li><a>Dashboard</a></li></Link>
                                 </ul>
                             </details>
                         </li>
