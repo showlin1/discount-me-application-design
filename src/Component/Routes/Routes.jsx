@@ -19,6 +19,7 @@ import Dashboard from "../../Pages/Dashboard/Dashboard";
 import Profile from "../../Pages/Profile/Profile";
 import OrderHistory from "../../Pages/OrderHistory/OrderHistory";
 import Setting from "../../Pages/Setting/Setting";
+import OrderDetails from "../../Pages/OrderDetails/OrderDetails";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
                     {
                         path:'orderHistory',
                         element:<OrderHistory></OrderHistory>,
+                    },
+                    {
+                        path:'viewDetails',
+                        element:<OrderDetails></OrderDetails>,
                     },
                     {
                         path:'setting',

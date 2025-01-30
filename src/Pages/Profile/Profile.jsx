@@ -46,7 +46,7 @@ const Profile = () => {
                                 <td>8 Sep, 2020</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td>Processing</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                             {/* row 2 */}
                             <tr>
@@ -54,7 +54,7 @@ const Profile = () => {
                                 <td>8 jun, 2022</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td className='text-green-500'>Completed</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                             {/* row 3 */}
                             <tr>
@@ -62,28 +62,28 @@ const Profile = () => {
                                 <td>8 Oct, 2023</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td className='text-red-500'>Canceled</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                             <tr>
                                 <th>4</th>
                                 <td>10 March, 2022</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td>Processing</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                             <tr>
                                 <th>5</th>
                                 <td>5 Nov, 2024</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td className='text-orange-500'>On the Way</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                             <tr>
                                 <th>6</th>
                                 <td>8 Sep, 2020</td>
                                 <td>$135.00 (5 Products)</td>
                                 <td className='text-green-500'>Completed</td>
-                                <Link to='/dashboard/orderHistory/viewDetails'><td className='text-orange-600'>View Details</td></Link>
+                                <Link to='/dashboard/viewDetails'><td className='text-orange-600'>View Details</td></Link>
                             </tr>
                         </tbody>
                     </table>
