@@ -8,7 +8,7 @@ const ShoppingPage = () => {
     return (
         <div className="pt-24">
             <Categories></Categories>
-            <div className="grid grid-cols-3 gap-3 mb-16 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-16 mt-10">
                 {
                     shoppingCarts.map(cart => <ShopingCart key={cart.id} cart={cart}></ShopingCart>)
                 }

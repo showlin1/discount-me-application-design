@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ShopingCart = ({ cart }) => {
     const { id, shoppingName, image, category, review, price, description } = cart;
     return (
-        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+        <div className="card card-compact bg-base-100 w-full shadow-xl">
             <figure>
                 <img className='relative h-[180px] w-full'
                     src={image}

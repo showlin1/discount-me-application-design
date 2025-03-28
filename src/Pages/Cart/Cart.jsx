@@ -7,7 +7,7 @@ const Cart = ({ cart }) => {
     const { id, restaurantName, image, rating, location, details } = cart;
     return (
         <div className="card p-6 border-2 h-[500px]">
-            <figure className="w-[350px] h-[190px] rounded-xl"><img src={image} /></figure>
+            <figure className=" h-[190px] w-full rounded-xl"><img src={image} /></figure>
             <div className="mt-4">
                 <div className="flex justify-between mt-5 mb-5">
                     <h2 className="card-title">{restaurantName}</h2>
@@ -21,7 +21,7 @@ const Cart = ({ cart }) => {
                     <p>{location}</p>
                 </div>
                 {
-                    details.length > 84 ? <p className='text-start'>{details.slice(0, 84)}<Link
+                    details.length > 84 ? <p className='text-start mb-2'>{details.slice(0, 84)}<Link
                         to={`/cart/${id}`}
                         className="text-blue-600 font-bold">Read More...</Link></p>
                         : <p>{details}</p>

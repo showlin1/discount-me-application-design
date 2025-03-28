@@ -10,7 +10,7 @@ const SignIn = () => {
             <div className=''>
                 <Header></Header>
             </div>
-            <div className='m-16 bg-white shadow-2xl rounded-xl mx-auto w-1/2 p-6'>
+            <div className='m-16 bg-white shadow-2xl rounded-xl mx-auto w-full md:w-full lg:w-1/2 p-6'>
                 <h2 className="text-3xl  font-bold text-center my-10">Sign In</h2>
                 <form className=" mx-auto">
                     <div className="form-control">

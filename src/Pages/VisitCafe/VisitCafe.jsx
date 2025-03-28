@@ -67,7 +67,7 @@ const VisitCafe = () => {
 
                     <Categories></Categories>
                     <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2'>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/LzQ02jY7/shop1.jpg"
@@ -83,7 +83,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/LzQ02jY7/shop1.jpg"
@@ -99,7 +99,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/jZDPQSCS/shop2.jpg"
@@ -115,7 +115,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/pB8M7Sqz/item3.jpg"
@@ -131,7 +131,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/0yYwDqwf/item4.jpg"
@@ -147,7 +147,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/pB8M7Sqz/item3.jpg"
@@ -163,7 +163,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/pB8M7Sqz/item3.jpg"
@@ -179,7 +179,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/0yYwDqwf/item4.jpg"
@@ -195,7 +195,7 @@ const VisitCafe = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                        <div className="card card-compact bg-base-100 w-full shadow-xl">
                             <figure>
                                 <img className='h-[180px] w-full'
                                     src="https://i.ibb.co.com/pB8M7Sqz/item3.jpg"

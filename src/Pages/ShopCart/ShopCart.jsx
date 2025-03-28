@@ -112,17 +112,17 @@ const ShopCart = () => {
                 </div>
                 <div className='w-1/3 border rounded-xl shadow-xl p-4'>
                     <h1 className='text-2xl font-bold text-start'>Cart Total</h1>
-                    <div className='flex justify-between mt-5'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 mt-5'>
                         <p>Subtotal</p>
                         <p>$ 84.00</p>
                     </div>
                     <hr className='w-full border-2 mt-3'/>
-                    <div className='flex justify-between mt-5'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 mt-5'>
                         <p>Shipping </p>
                         <p>Free</p>
                     </div>
                     <hr className='w-full border-2 mt-3'/>
-                    <div className='flex justify-between mt-5'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 mt-5'>
                         <p>Total :</p>
                         <p className='font-bold'>$ 84.00</p>
                     </div>

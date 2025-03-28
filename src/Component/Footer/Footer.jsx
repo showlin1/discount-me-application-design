@@ -9,11 +9,11 @@ const Footer = () => {
                     <p>Ecommerce is a free UI Kit from Paperpillar</p>
                     <p> that you can use for your personal or</p>
                     <p>commercial project.</p>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-1 mt-2'>
-                        <div>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-2'>
+                        <div className='pl-4'>
                             <input type="email" placeholder='Type your Email address' className='input input-bordered border-base-300 focus:outline-base-500 bg-black  rounded-full' />
                         </div>
-                        <div>
+                        <div >
                             <input type="text" placeholder='Submit' className='p-3 rounded-full' />
                         </div>
                     </div>

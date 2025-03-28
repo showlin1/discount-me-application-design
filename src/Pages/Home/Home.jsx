@@ -18,10 +18,10 @@ const Home = () => {
         <div className='pt-24'>
             <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-6'>
                 <div className=''>
-                    <h1 className='text-6xl text-start pt-20 font-bold'>Good <span className=' text-orange-600'>Food</span> great,<br /> Memories</h1>
+                    <h1 className='text-6xl text-start pt-5 lg:pt-20 font-bold'>Good <span className=' text-orange-600'>Food</span> great,<br /> Memories</h1>
                     <p className='text-start text-2xl mt-5'>Enable diners to customize their <br /> booking by requesting a specific table <br /> location or view.</p>
                     <div className="form-control relative mt-5">
-                        <input type="text" className="input input-bordered rounded-full px-10 w-24 md:w-auto" />
+                        <input type="text" className="input input-bordered rounded-full px-10 w-full md:w-auto" />
                         <span className="absolute mt-1 left-3 text-white rounded-l-full bg-green-500 text-2xl p-2"><IoLocationSharp></IoLocationSharp></span>
                         <select className='absolute mt-1 left-10 text-white bg-green-500 p-2'>
                             <option className='text-white'> Location</option>
@@ -85,10 +85,10 @@ const Home = () => {
             </div>
             <div className='text-start mb-16'>
                 <h1 className='text-4xl font-bold mb-5'>Products</h1>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1'>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/kghn0pVK/food1.png"
                                 alt="" />
                         </figure>
@@ -99,7 +99,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/BHvQRBB8/food2.png"
                                 alt="" />
                         </figure>
@@ -110,7 +110,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/rPfT6Jf/food3.png"
                                 alt="" />
                         </figure>
@@ -121,7 +121,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/Lzy8xDrX/food4.png"
                                 alt="" />
                         </figure>
@@ -132,7 +132,7 @@ const Home = () => {
                     </div>
                     <div className="w-96 ">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/N6ZNwXFC/food5.png"
                                 alt="" />
                         </figure>
@@ -143,7 +143,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/C5zqqrjB/food6.png"
                                 alt="" />
                         </figure>
@@ -154,7 +154,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/kghn0pVK/food1.png"
                                 alt="" />
                         </figure>
@@ -165,7 +165,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/BHvQRBB8/food2.png"
                                 alt="" />
                         </figure>
@@ -176,7 +176,7 @@ const Home = () => {
                     </div>
                     <div className="w-96">
                         <figure>
-                            <img className='rounded-xl w-[370px] h-[190px]'
+                            <img className='rounded-xl w-[280px] h-[190px]'
                                 src="https://i.ibb.co.com/rPfT6Jf/food3.png"
                                 alt="" />
                         </figure>

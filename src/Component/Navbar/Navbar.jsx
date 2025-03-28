@@ -38,7 +38,7 @@ const Navbar = () => {
                         <Link to='/'>
                             <img width='160' height='130' src="https://i.ibb.co.com/rfZfZzn/logo.png" alt="" />
                         </Link>
-                        <div className="form-control relative">
+                        <div className="form-control relative hidden lg:flex">
                             <input type="text" placeholder="Search" className="input input-bordered rounded-full px-10 w-24 md:w-auto" />
                             <span className="absolute mt-4 left-4"><FaSearch></FaSearch></span>
                             <span className='absolute p-3 right-0 rounded-r-full bg-[#FF7D29] '>Search</span>
